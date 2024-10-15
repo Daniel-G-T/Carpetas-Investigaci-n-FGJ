@@ -97,7 +97,7 @@ with tab1:
 	fig.update_traces(texttemplate='%{text:.2s}', textposition='outside')
 	st.plotly_chart(fig, use_container_width=True) 
 
-	del_alc = bd.groupby([bd.categoria_delito,bd.alcaldia_catalogo]).size()
+	del_alc = bd.groupby([bd.categoria_delito,bd.alcaldia_hecho]).size()
 	fig2=go.Figure()
 	for alc in bd.categoria_delito[bd.categoria_delito.notna()].unique() :
   		datos = del_alc[alc]
