@@ -12,4 +12,4 @@ Información geográfica: calle, colonia, alcaldía y coordenadas.
 Fecha en que se cometió el delito investigación.
 Fecha en que se inició la carpeta de investigación.
 
-A lo largo de este análisis, se abordarán diversas técnicas de exploración y visualización de datos para interpretar y comprender la distribución de los delitos en la Ciudad de México, así como su evolución temporal.
+A lo largo de este análisis, se abordarán diversas técnicas de exploración y visualización de datos para interpretar y comprender la distribución de los delitos en la Ciudad de México, así como su evolución temporal. Los resultados del análisis de este conjunto de datos se pueden visualizar de forma interactiva en el dashboard: https://carpetasfgj.streamlit.app/
